@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"></androidx.viewpager.widget.ViewPager>
+    <LinearLayout
+        android:id="@+id/id_dots_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/id_viewpager"
+        android:background="#33000000"
+        android:orientation="vertical"
+        android:padding="4dp">
+        <TextView
+            android:id="@+id/id_image_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="这个是描述"
+            android:textColor="#ffffff" />
+        <LinearLayout
+            android:id="@+id/id_dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:background="@drawable/dotsgroupbg"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"></LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

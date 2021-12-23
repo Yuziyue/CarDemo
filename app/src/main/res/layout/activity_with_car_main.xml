@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    <com.example.demo.TitleBackLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/user_layout"
+        android:layout_width="334dp"
+        android:layout_height="94dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@mipmap/bg_car_card"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="visible">
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="我的车辆"
+                android:textColor="@color/white"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="车牌号        皖N8980"
+                android:textColor="@color/white"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="车牌型号    比亚迪秦2017款"
+                android:textColor="@color/white"></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="VIN码          12345678912"
+                android:textColor="@color/white"></TextView>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/car"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/add_car"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="3dp">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+
+    <FrameLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/ad_frame_layout"
+        android:layout_width="389dp"
+        android:layout_height="135dp"></FrameLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/charge_btn"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_button_user"
+            android:drawableLeft="@mipmap/battery_"
+            android:drawableRight="@mipmap/back_1"
+            android:drawablePadding="1sp"
+            android:paddingStart="20dp"
+            android:paddingRight="35dp"
+            android:text="充电"
+            android:textColor="@drawable/button_font_style_user" />
+
+        <Button
+            android:id="@+id/order_btn"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_button_user"
+            android:drawableLeft="@mipmap/order_"
+            android:drawableRight="@mipmap/back_1"
+            android:drawablePadding="1sp"
+            android:paddingStart="20dp"
+            android:paddingRight="20dp"
+            android:text="我的订单"
+            android:textColor="@drawable/button_font_style_user" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bank_btn"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_button_user"
+            android:drawableLeft="@mipmap/bank_"
+            android:drawableRight="@mipmap/back_1"
+            android:drawablePadding="1sp"
+            android:paddingStart="20dp"
+            android:paddingRight="30dp"
+            android:text="我的银行卡"
+            android:textColor="@drawable/button_font_style_user" />
+
+        <Button
+            android:id="@+id/setting_btn"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_button_user"
+            android:drawableLeft="@mipmap/setting_"
+            android:drawableRight="@mipmap/back_1"
+            android:drawablePadding="1sp"
+            android:paddingStart="20dp"
+            android:paddingRight="15dp"
+            android:text="无感支付设置"
+            android:textColor="@drawable/button_font_style_user" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:gravity="center_horizontal"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@drawable/background_login"-->
+<!--    >-->
+<!--    <com.example.demo.TitleBackLayout-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_width="match_parent"/>-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/user_layout"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="166dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:background="@drawable/background_login_div"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:visibility="visible">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="211dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="我的车辆"-->
+<!--                android:textSize="20dp"></TextView>-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:text="车辆号      ******"-->
+<!--                android:textSize="20dp"></TextView>-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:text="车辆型号  ******"-->
+<!--                android:textSize="20dp"></TextView>-->
+<!--            <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:text="VIN码        ******"-->
+<!--            android:textSize="20dp"></TextView>-->
+<!--        </LinearLayout>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/car"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/e"/>-->
+
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/charge_btn"-->
+<!--            android:layout_width="179dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@drawable/background_button_user"-->
+<!--            android:text="充电"-->
+<!--            android:textColor="@drawable/button_font_style_user" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/order_btn"-->
+<!--            android:layout_width="179dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@drawable/background_button_user"-->
+<!--            android:text="订单"-->
+<!--            android:textColor="@drawable/button_font_style_user" />-->
+
+
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:gravity="center"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/bank_btn"-->
+<!--            android:layout_width="179dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@drawable/background_button_user"-->
+<!--            android:text="我的银行卡"-->
+<!--            android:textColor="@drawable/button_font_style_user" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/setting_btn"-->
+<!--            android:layout_width="179dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_margin="15dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@drawable/background_button_user"-->
+<!--            android:text="无感支付设置"-->
+<!--            android:textColor="@drawable/button_font_style_user" />-->
+
+
+<!--    </LinearLayout>-->
+
+<!--    <FrameLayout-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        android:id="@+id/ad_frame_layout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"></FrameLayout>-->
+
+
+
+
+<!--</LinearLayout>-->
+

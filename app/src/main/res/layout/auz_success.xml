@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@drawable/background_login_div"
+    >
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent"-->
+    <!--    android:orientation="vertical"-->
+    <!--    android:gravity="center_horizontal"-->
+    <!--    android:background="@drawable/background_login_div">-->
+    <!--<TextView-->
+    <!--    android:layout_width="wrap_content"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:text="无感充电支付"-->
+    <!--    android:textStyle="bold"/>-->
+    <!--<TextView-->
+    <!--    android:layout_width="300dp"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--    android:background="@drawable/dotted_line"-->
+    <!--    android:layerType="software"-->
+    <!--    android:layout_marginTop="3dp"/>-->
+
+    <!--    </LinearLayout>-->
+
+
+
+
+    <!--</LinearLayout>-->
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/yes_wait" />
+    <TextView
+        android:id="@+id/success_txt"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:text="授权成功"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前绑定账户： "/>
+        <TextView
+            android:id="@+id/phone_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="176****5709"/>
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="感谢您的支持与关注"/>
+
+
+
+
+
+    <Button
+        android:id="@+id/yes1_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/background_button_div"
+        android:text="确认"
+        android:textColor="@drawable/button_font_style" />
+
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/background_login"
+    >
+    <com.example.demo.TitleBackLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+
+
+    <LinearLayout
+        android:id="@+id/user_layout"
+        android:layout_width="242dp"
+        android:layout_height="475dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/background_login_div"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="30dp"
+            android:text="无感充电支付"
+            android:layout_gravity="center"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/user_count_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:text="用户账户  176****5709"
+            ></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:id="@+id/content_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="25dp"
+                android:text="套餐内容  "
+                ></TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="您授将云闪付账号与当前车辆绑定，在本车进行无感充电支付时，将自动向您云闪付选择的银行卡扣款，单词限额100元，每日限额1000元."/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/pay_count_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="扣款账户  176****5709"
+            ></TextView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp">
+
+            <CheckBox
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="同意"/>
+            <TextView
+                android:id="@+id/agree_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/agree_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/background_button_div"
+            android:text="同意"
+            android:textColor="@drawable/button_font_style" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
